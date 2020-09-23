@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(./back.jpg) ;
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+}
+.container-fluid{
+   
+}
+.right{
+    margin-left: 28rem;
+}
+ul li :hover{
+    transition: 0.2sec;
+background-color: brown;
+}
+ul li{
+    margin-left: 1rem;
+}
+ul li a{
+    color: black;
+}
